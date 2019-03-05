@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BoloActivity">
-    
+    tools:context=".SopaErvilhaActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,13 +14,13 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/bolo"
+            android:src="@drawable/sopaervilha"
             android:scaleType="centerCrop"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/receita_bolo_titulo"
+            android:text="@string/receita_ervilha_titulo"
             android:background="#C75252"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
             android:padding="16dp"/>
@@ -28,12 +28,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/receita_bolo_conteudo"
+            android:text="@string/receita_ervilha_conteudo"
             android:padding="16dp"/>
 
-
     </LinearLayout>
-    
-
 
 </ScrollView>
